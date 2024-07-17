@@ -27,12 +27,14 @@ Choose from any of the Amazon Polly natural voices!
     - **Log In**: Once you’ve set up your account, log into the AWS Management Console.
 
 2. **Create an IAM User**
-    - From the AWS Management Console, go to to the IAM (Identity and Access Management) service by searching for `IAM` in the top search bar
-    - Click on `Users` in the leftside side panel
-    - Click on `Create user`
-    - Give the user a `name` then click `Next`
-    - Under `Set permissions`, click on the `Attach policies directly` option for `Permission options`
-    - Under Permissions policies check on `AmazonPollyFullAccess` (optional: add `AdministratorAccess`, `AWSCompromisedKeyQuarantineV2`)
+    - From the AWS `Console Home` screen (can access this screen by clicking the `AWS` logo in the top left corner) look to the right of the logo for a `search` bar
+    - In the seatchbar search for `iam` and then click on the one that just says `IAM` under the `Services` category
+    - Once inside the Identiy and Access Management (IAM) homepage look to the left to find a sidebar full of options
+    - Under the Access management category click on `Users`
+    - To the right click on `Create user`
+    - Give the user a `name` and then click `Next`
+    - Under `Set permissions` and `Permission options` there's 3 options, toggle on the rightmost option which should say `Attach policies directly`
+    - After the `Permission options` there's the `Permissions policies` where under that category, check on `AmazonPollyFullAccess` (and optionally toggle on `AdministratorAccess`, `AWSCompromisedKeyQuarantineV2` for more control)
     - Click `Next` and then `Create user`
  
 3. **Set Up AWS CLI (Optional)**
