@@ -32,7 +32,7 @@ Choose from any of the Amazon Polly natural voices!
     - Click `Add user`
     - **Attach Policies**:
         - Give the user AmazonPollyFullAccess for full Polly capabilities.
-        - Save the `access key ID` and `secret access key` shown by downloading the `username_access.cvs` file to your computer. Don't delete that file cause you'll need to know your `access key ID` and `secrete access key` for the next step!
+        - Save the `access key ID` and `secret access key` shown by downloading the `username_access.cvs` file to your computer. Don't delete it! you'll need your `access key ID` and `secrete access key` for the next step!
 
 3. **Set Up AWS CLI (Optional)**
     - Download and install `AWS CLI.exe` following this link to the [AWS CLI website](https://aws.amazon.com/cli/) then click on whats boxed in red from the picture below matching the system your on.
