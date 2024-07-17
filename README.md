@@ -53,7 +53,7 @@ Choose from any of the Amazon Polly natural voices!
  
 ### Troubleshooting
 
-1. install python and the programs dependencies packages
+1. build local version of program
     - install python `3.11.7`, then in the terminal run the following `pip` commands
             -  `pip install boto3`
             -  `pip install pygame`
