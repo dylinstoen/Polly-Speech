@@ -1,6 +1,6 @@
 # Description
 
-Run Amazon Polly right on your desktop locally using this amazing user friendly interface!
+Run Amazon Polly right on your desktop using this amazingly simple App!
 
 ![image](https://github.com/user-attachments/assets/454bf0c9-b875-470c-afb5-1ab136a53ab5)
 
