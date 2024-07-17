@@ -23,11 +23,11 @@ Choose from any of the Amazon Polly natural voices!
 
 ## Tutorial
 
-1. Set Up Your AWS Account
+1. **Set Up Your AWS Account**
     - **Sign Up**: Head over to AWS Home to create your account. You’ll need to provide some basic info like your email, password, contact details, and credit card.
     - **Log In**: Once you’ve set up your account, log into the AWS Management Console.
 
-2. Create an IAM User
+2. **Create an IAM User**
     - From the AWS Management Console, go to to the IAM (Identity and Access Management) service.
     - Click `Users`
     - Click `Add user`
@@ -35,14 +35,14 @@ Choose from any of the Amazon Polly natural voices!
         - Give the user AmazonPollyFullAccess for full Polly capabilities.
         - Finish up and **don’t forget** to save the access key ID and secret access key shown. You won’t see them again!
 
-3. Set Up AWS CLI (Optional)
+3. **Set Up AWS CLI (Optional)**
     - Download and install `AWS CLI.exe` from the AWS CLI website.
     - Open a command prompt on your desktop
     - Run `aws configure` in your command prompt.
     - Input your AWS Access Key ID and Secret Access Key.
     - Set your default region, like `us-east-1`, and output format as `json`.
 
-4. Run Synthesize Speech App!
+4. **Run Synthesize Speech App!**
     - Grab the exe from the `releases` section on this GitHub repo.
     - Open it, and if a warning pops up, click `more info` and then `Run anyway`.
 
