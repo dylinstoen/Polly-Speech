@@ -38,11 +38,15 @@ Choose from any of the Amazon Polly natural voices!
 ![image](https://github.com/user-attachments/assets/a232be4a-9935-47ab-9847-df52f458574e)
 
 
-- To the right click on `Create user`
+- To the right click on `Create user` like in the picture below
+
+![image](https://github.com/user-attachments/assets/7bf6476d-44ca-4cf7-9541-4f2d74922ec4)
+
 - Give the user a name and then click `Next`
 - Under `Set permissions` and `Permission options` there's 3 options, toggle on the rightmost option which should say `Attach policies directly`
 - After the `Permission options` there's the `Permissions policies` where under that category, check on `AmazonPollyFullAccess` (and optionally toggle on `AdministratorAccess`, `AWSCompromisedKeyQuarantineV2` for more control)
 - Click `Next` and then `Create user`
+
  
 3. **Set Up AWS CLI (Optional)**
     - **Attach Security Credentials**:
