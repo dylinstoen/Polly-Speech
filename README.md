@@ -23,7 +23,7 @@ Polly Desktop GUI is a user-friendly desktop application designed to leverage th
 2. Configure the CLI:
     - Run `aws configure` in your command line.
     - Enter the `AWS Access Key ID` and `Secret Access Key` you just created.
-    - Set your `default region name` (e.g., `us-east-1`).
+    - Set your `default region name` (e.g., `us-east-1`, `us-west-2`).
     - Set the `default output format` as `json`
     
 ## Step 4: Test Amazon Polly on your command prompt (Optional)
