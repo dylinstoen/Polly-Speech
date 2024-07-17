@@ -23,33 +23,33 @@ Choose from any of the Amazon Polly natural voices!
 
 ## Tutorial
 
-## Step 1: Set Up Your AWS Account
+## 1. Set Up Your AWS Account
 - **Sign Up**: Head over to AWS Home to create your account. You’ll need to provide some basic info like your email, password, contact details, and credit card.
 - **Log In**: Once you’ve set up your account, log into the AWS Management Console.
 
-## Step 2: Create an IAM User
+## 2. Create an IAM User
 - **Open IAM**: From the AWS Management Console, navigate to the IAM (Identity and Access Management) service.
 - **Click “Users”, then “Add user”**
 - **Attach Policies**:
   - Give the user AmazonPollyFullAccess for full Polly capabilities.
   - Finish up and **don’t forget** to save the access key ID and secret access key shown. You won’t see them again!
 
-## Step 3: Set Up AWS CLI (Optional)
+## 3. Set Up AWS CLI (Optional)
 - **Install AWS CLI**: Download and install it from AWS CLI.
 - **Configure the CLI**:
   - Run `aws configure` in your command prompt.
   - Input your AWS Access Key ID and Secret Access Key.
   - Set your default region, like `us-east-1`, and output format as `json`.
 
-## Step 4: Try Out Amazon Polly (Optional)
+## 4. Try Out Amazon Polly (Optional)
 - Run `aws polly synthesize-speech --output-format mp3 --voice-id Joanna --text "Hello, World" hello.mp3` in your command prompt to create an MP3 file saying "Hello, World".
 
-## Step 5: Run Synthesize Speech App!
+## 5. Run Synthesize Speech App!
 - **Download and Run**:
   - Grab the exe from the `releases` section on this GitHub repo.
   - Open it, and if a warning pops up, click `more info` and then `Run anyway`.
 
-## Step 6: Add Polly Speech to All Programs in Windows (Optional)
+## 6. Add Polly Speech to All Programs in Windows (Optional)
 - **Create a Shortcut**:
   - Right-click the exe and choose `create desktop shortcut`.
   - Move the shortcut to `C:\ProgramData\Microsoft\Windows\Start Menu\Programs`.
