@@ -39,15 +39,15 @@ Choose from any of the Amazon Polly natural voices!
  
 3. **Set Up AWS CLI (Optional)**
     - **Attach Security Credentials**:
-        - After creating a user, we should be back in the users directory
-        - Open into the user you just created by clicking on there name in the `Users` list
-        - Once inside you should see 4 tabs (`Permissions Groups`, `Tags`, `Security credentials`, `Access Advisor`)
+        - After creating a user, we should be back in the `users` directory
+        - Open into the user you just created by clicking on there `name`
+        - Now once inside your inside the user you just created, in the middle should be 4 tabs (`Permissions Groups`, `Tags`, `Security credentials`, `Access Advisor`)
         - Click on the `Security credentials` tab
         - Under `Access Keys (0)` click `Create Access key`
         - Click `Command Line Interface (CLI)`, check on `I understand...`
-        - Next to `Done` click `Download .csv file` (you'll need the `Access key` and `Secrete access key` values in the next couple step
+        - (DON'T click on to `Done`!) To the left of `Done` click `Download .csv file` first so you save the access key ID and the secrete access key for the next step (if you do accedentially forget or delete the .csv file of the access keys then you just have to create a new access key to get a new valid set of keys to use)
     - **Install and Configure AWS ClI**:
-    - Download and install `AWS CLI.exe` following this link to the [AWS CLI website](https://aws.amazon.com/cli/) then click on whats boxed in red from the picture below matching the system your on.
+    - Download and install `AWS CLI.exe` by following this link to the [AWS CLI website](https://aws.amazon.com/cli/) then click on whats boxed in red from the picture below matching the system your on.
 
   ![image](https://github.com/user-attachments/assets/c240daa5-a143-4d75-b444-93ef1b76c066)
  
