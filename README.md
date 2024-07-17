@@ -28,14 +28,22 @@ Choose from any of the Amazon Polly natural voices!
 
 2. **Create an IAM User**
     - From the AWS `Console Home` screen (can access this screen by clicking the `AWS` logo in the top left corner) look to the right of the logo for a `search` bar
-    - In the search bar type `"iam"` in the search box and then click on the result that just says `IAM` under the `Services` category
-    - Once inside the `Identiy and Access Management (IAM)` homepage look to the left to find a sidebar full of options
-    - Under the Access management category click on `Users`
-    - To the right click on `Create user`
-    - Give the user a name and then click `Next`
-    - Under `Set permissions` and `Permission options` there's 3 options, toggle on the rightmost option which should say `Attach policies directly`
-    - After the `Permission options` there's the `Permissions policies` where under that category, check on `AmazonPollyFullAccess` (and optionally toggle on `AdministratorAccess`, `AWSCompromisedKeyQuarantineV2` for more control)
-    - Click `Next` and then `Create user`
+    - In the search bar type `"iam"` in the search box and then click on the result that just says `IAM` under the `Services` category following the picture below
+
+![image](https://github.com/user-attachments/assets/e2c1e91a-8635-4d9c-bdef-3ed54b0a316c)
+
+
+- Once inside the `Identiy and Access Management (IAM)` homepage look to the left and you should see a sidebar full of options matching the picture below
+- Under the Access management category click on `Users` like in the picture below
+
+![image](https://github.com/user-attachments/assets/a232be4a-9935-47ab-9847-df52f458574e)
+
+
+- To the right click on `Create user`
+- Give the user a name and then click `Next`
+- Under `Set permissions` and `Permission options` there's 3 options, toggle on the rightmost option which should say `Attach policies directly`
+- After the `Permission options` there's the `Permissions policies` where under that category, check on `AmazonPollyFullAccess` (and optionally toggle on `AdministratorAccess`, `AWSCompromisedKeyQuarantineV2` for more control)
+- Click `Next` and then `Create user`
  
 3. **Set Up AWS CLI (Optional)**
     - **Attach Security Credentials**:
