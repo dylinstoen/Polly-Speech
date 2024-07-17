@@ -54,14 +54,15 @@ Choose from any of the Amazon Polly natural voices!
 ### Troubleshooting
 
 1. install python and the programs dependencies packages
-    - install python `3.11.7`
-    -  `pip install boto3`
-    -  `pip install pygame`
-    -  `pip install customtkinter`
-    -  `pip install io`
-    -  `pip install pyinstaller`
-    -  Download the .py file
-    -  'pyinstaller --onefile --windowed text_to_speech.py'
+    - install python `3.11.7`, then in the terminal run the following `pip` commands
+            -  `pip install boto3`
+            -  `pip install pygame`
+            -  `pip install customtkinter`
+            -  `pip install io`
+            -  `pip install pyinstaller`
+    -  Download the `synthesize_speech-advanced.py` file
+            -  open up the terminal in the directory of the python file you just downloaded, run the following command
+                    -  `pyinstaller --onefile --windowed text_to_speech.py`
 
 2. install `visual studio build tools 2022`
     - in the main install menu check on to install `Desktop development with C++`
