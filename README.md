@@ -54,25 +54,25 @@ Choose from any of the Amazon Polly natural voices!
 ### Troubleshooting
 
 1. build local version of program
-        - install python `3.11.7`, then in the terminal run the following `pip` commands
-                -  `pip install boto3`
-                -  `pip install pygame`
-                -  `pip install customtkinter`
-                -  `pip install io`
-                -  `pip install pyinstaller`
-        -  Download the `synthesize_speech-advanced.py` file
-                -  open up the terminal in the directory of the python file you just downloaded, run the following command
-                        -  `pyinstaller --onefile --windowed text_to_speech.py`
-        - Inside the same folder as your python file should be a `Dist`, open it up and there should be your local build of `synthesize_speech-advanced.exe`
+    - install python `3.11.7`, then in the terminal run the following `pip` commands
+        -  `pip install boto3`
+          -  `pip install pygame`
+          -  `pip install customtkinter`
+          -  `pip install io`
+          -  `pip install pyinstaller`
+    -  Download the `synthesize_speech-advanced.py` file
+      -  open up the terminal in the directory of the python file you just downloaded, run the following command
+        -  `pyinstaller --onefile --windowed text_to_speech.py`
+    - Inside the same folder as your python file should be a `Dist`, open it up and there should be your local build of `synthesize_speech-advanced.exe`
 
-2. if the `synthesize_speech-advanced.exe` build failed continue below
-       - install `visual studio build tools 2022` and the rest of the programs dependcies
-            - in the main install menu check on to install `Desktop development with C++`
-            - in `individual components` check on to install `MSVC v142 - VS 2019 C++ x64/x86 build tools`
-            - open `edit the system enviorment variables` and then under `System` open up `path`
-            - under `path` add
-                   - `C:\Program Files (x86)\Microsoft Visual Studio\2022\BuildTools\VC\Tools\MSVC\14.29.30133\bin\HostX64\x64`
-                   - `C:\Program Files (x86)\Windows Kits\10\bin\10.0.22621.0\x64`
+3. if the `synthesize_speech-advanced.exe` build failed continue below
+   - install `visual studio build tools 2022` and the rest of the programs dependcies
+       - in the main install menu check on to install `Desktop development with C++`
+        - in `individual components` check on to install `MSVC v142 - VS 2019 C++ x64/x86 build tools`
+        - open `edit the system enviorment variables` and then under `System` open up `path`
+        - under `path` add
+          - `C:\Program Files (x86)\Microsoft Visual Studio\2022\BuildTools\VC\Tools\MSVC\14.29.30133\bin\HostX64\x64`
+            - `C:\Program Files (x86)\Windows Kits\10\bin\10.0.22621.0\x64`
             -  open up the terminal in the directory of the python file you downloaded in step 1, then run the following command again
-                    -  `pyinstaller --onefile --windowed text_to_speech.py`
-            - Inside the same folder as your python file should be a `Dist`, open it up and there should be your local build of `synthesize_speech-advanced.exe`
+              -  `pyinstaller --onefile --windowed text_to_speech.py`
+          - Inside the same folder as your python file should be a `Dist`, open it up and there should be your local build of `synthesize_speech-advanced.exe`
