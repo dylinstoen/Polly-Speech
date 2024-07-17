@@ -27,14 +27,24 @@ Choose from any of the Amazon Polly natural voices!
     - **Log In**: Once you’ve set up your account, log into the AWS Management Console.
 
 2. **Create an IAM User**
-    - From the AWS Management Console, go to to the IAM (Identity and Access Management) service.
-    - Click `Users`
-    - Click `Add user`
-    - **Attach Policies**:
-        - Give the user AmazonPollyFullAccess for full Polly capabilities.
-        - Save the `access key ID` and `secret access key` by downloading the `username_access.cvs` file to your computer. Don't delete it! you'll need your `access key ID` and `secrete access key` for the next step!
-
+    - From the AWS Management Console, go to to the IAM (Identity and Access Management) service by searching for `IAM` in the top search bar
+    - Click on `Users` in the leftside side panel
+    - Click on `Create user`
+    - Give the user a `name` then click `Next`
+    - Under `Set permissions`, click on the `Attach policies directly` option for `Permission options`
+    - Under Permissions policies check on `AmazonPollyFullAccess` (optional: add `AdministratorAccess`, `AWSCompromisedKeyQuarantineV2`)
+    - Click `Next` and then `Create user`
+ 
 3. **Set Up AWS CLI (Optional)**
+    - **Attach Security Credentials**:
+        - After creating a user, we should be back in the users directory
+        - Open into the user you just created by clicking on there name in the `Users` list
+        - Once inside you should see 4 tabs (`Permissions Groups`, `Tags`, `Security credentials`, `Access Advisor`)
+        - Click on the `Security credentials` tab
+        - Under `Access Keys (0)` click `Create Access key`
+        - Click `Command Line Interface (CLI)`, check on `I understand...`
+        - Next to `Done` click `Download .csv file` (you'll need the `Access key` and `Secrete access key` values in the next couple step
+    - **Install and Configure AWS ClI**:
     - Download and install `AWS CLI.exe` following this link to the [AWS CLI website](https://aws.amazon.com/cli/) then click on whats boxed in red from the picture below matching the system your on.
 
   ![image](https://github.com/user-attachments/assets/c240daa5-a143-4d75-b444-93ef1b76c066)
