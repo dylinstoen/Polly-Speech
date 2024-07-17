@@ -40,7 +40,7 @@ Choose from any of the Amazon Polly natural voices!
 3. **Set Up AWS CLI (Optional)**
     - **Attach Security Credentials**:
         - After creating a user, we should be back in the `users` directory
-        - Open into the user you just created by clicking on there `name`
+        - Open into the user you just created by clicking on there name
         - Now once inside your inside the user you just created, in the middle should be 4 tabs (`Permissions Groups`, `Tags`, `Security credentials`, `Access Advisor`)
         - Click on the `Security credentials` tab
         - Under `Access Keys (0)` click `Create Access key`
