@@ -1,7 +1,7 @@
 # Description
 
 - Run Amazon Polly right on your desktop locally using this amazing user friendly interface!
-- Setup AWS and Amazon Polly to configure with this app and any future apps you want to make all in this one stop shop tutorial!
+- Setup AWS and Amazon Polly in an all in one one-stop-shop simple tutorial!
 
 ![image](https://github.com/user-attachments/assets/454bf0c9-b875-470c-afb5-1ab136a53ab5)
 
