@@ -39,10 +39,11 @@ Choose from any of the Amazon Polly natural voices!
 
   ![image](https://github.com/user-attachments/assets/c240daa5-a143-4d75-b444-93ef1b76c066)
  
-    - Open a command prompt on your desktop
-    - Run `aws configure` in your command prompt.
-    - Input your AWS Access Key ID and Secret Access Key.
-    - Set your default region, like `us-east-1`, and output format as `json`.
+ 
+- Open a command prompt on your desktop
+- Run `aws configure` in your command prompt.
+- Input your AWS Access Key ID and Secret Access Key.
+- Set your default region, like `us-east-1`, and output format as `json`.
 
 4. **Run Synthesize Speech App!**
     - Grab the exe from the `releases` section on this GitHub repo.
