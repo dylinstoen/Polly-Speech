@@ -29,8 +29,7 @@ Choose from any of the Amazon Polly natural voices!
 
 ## Step 2: Create an IAM User
 - **Open IAM**: From the AWS Management Console, navigate to the IAM (Identity and Access Management) service.
-- **Add a New User**:
-  - Click “Users”, then “Add user”.
+- **Click “Users”, then “Add user”**
 - **Attach Policies**:
   - Give the user AmazonPollyFullAccess for full Polly capabilities.
   - Finish up and **don’t forget** to save the access key ID and secret access key shown. You won’t see them again!
