@@ -2,15 +2,15 @@
 
 Run Amazon Polly locally on your desktop with this user friendly interface!
 
-![image](https://github.com/user-attachments/assets/454bf0c9-b875-470c-afb5-1ab136a53ab5)
+![image](https://github.com/user-attachments/assets/ac229cef-97ae-4a02-afd0-60accc0bac2a)
 
 Play audio right inside the app or save it as an mp3
 
-![image](https://github.com/user-attachments/assets/3251c4b9-096b-4cc0-add8-009160dfbae3)
+![image](https://github.com/user-attachments/assets/454bf0c9-b875-470c-afb5-1ab136a53ab5)
 
 Select between light and dark themes
 
-![image](https://github.com/user-attachments/assets/ac229cef-97ae-4a02-afd0-60accc0bac2a)
+
 
 Scale the UI to be larger or smaller!
 
