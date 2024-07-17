@@ -31,7 +31,6 @@ Choose from any of the Amazon Polly natural voices!
 - **Open IAM**: From the AWS Management Console, navigate to the IAM (Identity and Access Management) service.
 - **Add a New User**:
   - Click “Users”, then “Add user”.
-  - Choose a user name and select “Programmatic access” for API, CLI, and SDK access.
 - **Attach Policies**:
   - Give the user AmazonPollyFullAccess for full Polly capabilities.
   - Finish up and **don’t forget** to save the access key ID and secret access key shown. You won’t see them again!
