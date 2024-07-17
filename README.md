@@ -32,7 +32,7 @@ Choose from any of the Amazon Polly natural voices!
     - Click `Add user`
     - **Attach Policies**:
         - Give the user AmazonPollyFullAccess for full Polly capabilities.
-        - Finish up and **don’t forget** to save the access key ID and secret access key shown. You won’t see them again!
+        - Finish up and **don’t forget** to save the `access key ID` and `secret access key` shown, you should have a `username_access.cvs` file on your computer. Don't delete that file or write down the contents of the file somewhere cause you'll need your `access key ID` and `secrete access key` for later!
 
 3. **Set Up AWS CLI (Optional)**
     - Download and install `AWS CLI.exe` following this link to the [AWS CLI website](https://aws.amazon.com/cli/) then click on whats boxed in red from the picture below matching the system your on.
@@ -40,10 +40,11 @@ Choose from any of the Amazon Polly natural voices!
   ![image](https://github.com/user-attachments/assets/c240daa5-a143-4d75-b444-93ef1b76c066)
  
  
-- Open a command prompt on your desktop
-- Run `aws configure` in your command prompt.
-- Input your AWS Access Key ID and Secret Access Key.
-- Set your default region, like `us-east-1`, and output format as `json`.
+- After installing AWS CLI:
+    - Open a command prompt on your desktop
+    - Run `aws configure` in your command prompt.
+    - Input your AWS Access Key ID and Secret Access Key (if you forgot look at the `username_access.cvs` file you saved earlier)
+    - Set your default region, like `us-east-1`, and output format as `json`.
 
 4. **Run Synthesize Speech App!**
     - Grab the exe from the `releases` section on this GitHub repo.
