@@ -59,6 +59,9 @@ Choose from any of the Amazon Polly natural voices!
     -  `pip install pygame`
     -  `pip install customtkinter`
     -  `pip install io`
+    -  `pip install pyinstaller`
+    -  Download the .py file
+    -  'pyinstaller --onefile --windowed text_to_speech.py'
 
 2. install `visual studio build tools 2022`
     - in the main install menu check on to install `Desktop development with C++`
