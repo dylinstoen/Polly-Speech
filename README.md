@@ -57,7 +57,7 @@ Choose from any of the Amazon Polly natural voices!
   - Move the shortcut to `C:\ProgramData\Microsoft\Windows\Start Menu\Programs`.
   - Renaming the shortcut will change how it appears in search results without breaking the link.
  
-## Troubleshooting (try each solution 1 at a time below)
+## Troubleshooting
 
 1. install python and the programs dependencies packages
     - install python `3.11.7`
