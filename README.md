@@ -28,7 +28,7 @@ Choose from any of the Amazon Polly natural voices!
 
 2. **Create an IAM User**
     - From the AWS `Console Home` screen (can access this screen by clicking the `AWS` logo in the top left corner) look to the right of the logo for a `search` bar
-    - In the seatchbar search for `iam` and then click on the one that just says `IAM` under the `Services` category
+    - In the search bar search for `iam` and then click on the one that just says `IAM` under the `Services` category
     - Once inside the Identiy and Access Management (IAM) homepage look to the left to find a sidebar full of options
     - Under the Access management category click on `Users`
     - To the right click on `Create user`
