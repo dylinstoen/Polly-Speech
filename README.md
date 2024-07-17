@@ -51,12 +51,11 @@ Choose from any of the Amazon Polly natural voices!
 3. **Set Up AWS CLI (Optional)**
     - **Attach Security Credentials**:
         - After creating a user, we should be back in the `users` directory
-        - Open into the user we just created in **step 1** by clicking on there name
-        - Now once your inside the user that you just created in **step 2**, look in the middle of the dashboard and find the 4 tab options (`Permissions Groups`, `Tags`, `Security credentials`, `Access Advisor`)
-        - Once you found the tabs, click on the `Security credentials` tab
-        - Under `Access Keys (0)` click `Create Access key`
-        - Click `Command Line Interface (CLI)`, check on `I understand...`
-        - (DON'T click on `Done`!) Instead, to the left of `Done` click `Download .csv file` which saves both access keys for us to use on the next step (if you forgot the keys, forgot to save the keys, and you don't have access to the .csv then creating a new `access key` pair should give you a new valid pair of access key/secrete values to use on the next step)
+        - Open into the user we just created in **step 2** by clicking on there name
+        - Now once your inside, look in the middle of the dashboard to find 4 tab options labeled (`Permissions Groups`, `Tags`, `Security credentials`, `Access Advisor`), and then click on the tab that says `Security credentials` tab
+        - Inside the `Security credentials` tab look under the `Access Keys (0)` tab and then under that tab click `Create Access key`
+        - From the list of types, toggle on the `Command Line Interface (CLI)` option and then check on the box below that says `I understand...`
+        - (On this page DON'T click on `Done`!) Instead, to the left of `Done` there should be a button that says `Download .csv file`, click on that and save the .csv file to your computer. This stores the access key/secrete pair in a .csv but if you want to store them some other way you can, you just need to know there values for the next step (Read if you forgot your keys: if you acceddentially clicked `Done` without saving or memorizing the keys in any way then all you need to do is create a new access key pair by repeating **step 3** and then once you created and saved those keys, you can delete the old keys you forgot)
     - **Install and Configure AWS ClI**:
     - Download and install `AWS CLI.exe` by following this link to the [AWS CLI website](https://aws.amazon.com/cli/) then click on whats boxed in red from the picture below matching the system your on.
 
