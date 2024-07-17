@@ -41,8 +41,8 @@ Choose from any of the Amazon Polly natural voices!
     - **Attach Security Credentials**:
         - After creating a user, we should be back in the `users` directory
         - Open into the user you just created by clicking on there name
-        - Now once inside your inside the user that you created in **step 2**, in the middle should be 4 tabs (`Permissions Groups`, `Tags`, `Security credentials`, `Access Advisor`)
-        - Click on the `Security credentials` tab
+        - Once your inside the user you created in **step 2** look in the middle of the dashboard to find 4 tabs (`Permissions Groups`, `Tags`, `Security credentials`, `Access Advisor`)
+        - Once you found the tabs, click on the `Security credentials` tab
         - Under `Access Keys (0)` click `Create Access key`
         - Click `Command Line Interface (CLI)`, check on `I understand...`
         - (DON'T click on `Done`!) Instead, to the left of `Done` click `Download .csv file` which saves both access keys for us to use on the next step (if you forgot the keys, forgot to save the keys, and you don't have access to the .csv then creating a new `access key` pair should give you a new valid pair of access key/secrete values to use on the next step)
