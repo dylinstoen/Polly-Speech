@@ -51,7 +51,7 @@ Choose from any of the Amazon Polly natural voices!
 
 ## 6. Add Polly Speech to All Programs in Windows (Optional)
 - **Create a Shortcut**:
-  - Right-click the exe and choose `create desktop shortcut`.
+  - Right-click on the `exe` and choose `create desktop shortcut`.
   - Move the shortcut to `C:\ProgramData\Microsoft\Windows\Start Menu\Programs`.
   - Renaming the shortcut will change how it appears in search results without breaking the link.
  
