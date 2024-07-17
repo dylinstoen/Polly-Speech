@@ -1,6 +1,7 @@
 # Description
 
 Run Amazon Polly right on your desktop locally with this user friendly interface!
+Also learn how to setup Amazon Polly and AWS on your computer using the below all in one instriction!
 
 ![image](https://github.com/user-attachments/assets/454bf0c9-b875-470c-afb5-1ab136a53ab5)
 
