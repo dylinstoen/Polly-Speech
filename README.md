@@ -56,4 +56,20 @@ Choose from any of the Amazon Polly natural voices!
   - Right-click the exe and choose `create desktop shortcut`.
   - Move the shortcut to `C:\ProgramData\Microsoft\Windows\Start Menu\Programs`.
   - Renaming the shortcut will change how it appears in search results without breaking the link.
+ 
+## Troubleshooting (try each solution 1 at a time below)
 
+1. install python and the programs dependencies packages
+  - install python `3.11.7`
+  -  `pip install boto3`
+  -  `pip install pygame`
+  -  `pip install customtkinter`
+  -  `pip install io`
+
+2. install `visual studio build tools 2022`
+  - in the main install menu check on to install `Desktop development with C++`
+  - in `individual components` check on to install `MSVC v142 - VS 2019 C++ x64/x86 build tools`
+  - open `edit the system enviorment variables` and then under `System` open up `path`
+  - under `path` add
+    - `C:\Program Files (x86)\Microsoft Visual Studio\2022\BuildTools\VC\Tools\MSVC\14.29.30133\bin\HostX64\x64`
+    - `C:\Program Files (x86)\Windows Kits\10\bin\10.0.22621.0\x64`
