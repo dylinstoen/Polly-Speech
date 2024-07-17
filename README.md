@@ -55,18 +55,22 @@ Choose from any of the Amazon Polly natural voices!
         - Now once your inside, look in the middle of the dashboard to find 4 tab options labeled (`Permissions Groups`, `Tags`, `Security credentials`, `Access Advisor`), and then click on the tab that says `Security credentials` tab
         - Inside the `Security credentials` tab look under the `Access Keys (0)` tab and then under that tab click `Create Access key`
         - From the list of types, toggle on the `Command Line Interface (CLI)` option and then check on the box below that says `I understand...`
-        - (On this page DON'T click on `Done`!) Instead, to the left of `Done` there should be a button that says `Download .csv file`, click on that and save the .csv file to your computer. This stores the access key/secrete pair in a .csv but if you want to store them some other way you can, you just need to know there values for the next step (Read if you forgot your keys: if you acceddentially clicked `Done` without saving or memorizing the keys in any way then all you need to do is create a new access key pair by repeating **step 3** and then once you created and saved those keys, you can delete the old keys you forgot)
-    - **Install and Configure AWS ClI**:
-    - Download and install `AWS CLI.exe` by following this link to the [AWS CLI website](https://aws.amazon.com/cli/) then click on whats boxed in red from the picture below matching the system your on.
+        - (On this page DON'T click on `Done`!) Instead, to the left of `Done` there should be a button that says `Download .csv file`, click on that and save the .csv file to your computer. This stores the access key/secrete pair in a .csv but if you want to store them some other way you can, you just need to know there values for the next step (Read if you forgot your keys: if you acceddentially clicked `Done` without saving or memorizing the keys in any way then all you need to do is create a new access key by repeating **step 3** and then once you download that keys `.csv` file you can go to your list of access keys and delete the old key you made)
 
-  ![image](https://github.com/user-attachments/assets/c240daa5-a143-4d75-b444-93ef1b76c066)
+
+
  
  
-- After installing AWS CLI:
-    - Open a command prompt on your desktop
-    - Run `aws configure` in your command prompt.
-    - Input your AWS Access Key ID and Secret Access Key (if you forgot look at the `username_access.cvs` file you saved earlier)
-    - Set your default region, like `us-east-1`, and output format as `json`.
+ 
+- **Install and Configure AWS ClI**:
+    - Download and install `AWS CLI.exe` by following this link to the [AWS CLI website](https://aws.amazon.com/cli/) then click on whats boxed in red from the picture below matching the system your on.
+ 
+ ![image](https://github.com/user-attachments/assets/c240daa5-a143-4d75-b444-93ef1b76c066)
+
+- Open a command prompt on your desktop
+- Run `aws configure` in your command prompt.
+- Input your AWS Access Key ID and Secret Access Key (if you forgot look at the `username_access.cvs` file you saved earlier)
+- Set your default region, like `us-east-1`, and output format as `json`.
 
 4. **Run Synthesize Speech App!**
     - Grab the exe from the `releases` section on this GitHub repo.
