@@ -33,8 +33,7 @@ Choose from any of the Amazon Polly natural voices!
 ![image](https://github.com/user-attachments/assets/e2c1e91a-8635-4d9c-bdef-3ed54b0a316c)
 
 
-- Once inside the `Identiy and Access Management (IAM)` homepage look to the left and you should see a sidebar full of options like in the picture below
-- Under the Access management category click on `Users`
+- Once inside the `Identiy and Access Management (IAM)` homepage look to the left and you should see a sidebar full of options, under the `Access management` category click on `Users` like in the picture below
 
 ![image](https://github.com/user-attachments/assets/a232be4a-9935-47ab-9847-df52f458574e)
 
