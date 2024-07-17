@@ -31,11 +31,13 @@ Polly Desktop GUI is a user-friendly desktop application designed to leverage th
 - This command will create an MP3 file named hello.mp3 with the spoken text “Hello, World”.
 
 ## Step 5. Run Synthesize Speech App!
-1. Download the zip file [github](https://github.com/dylinstoen/Polly-Speech/) 
-2. Unzip the `Poly Speech` folder anywhere on the computer
-3. Open into it and double click on the `synthesize_speech-advanced.exe` to launch the app Polly Speech local desktop app
+1. Download the exe located in the `releases` section of this github repo 
+2. Double click to run the `synthesize_speech-advanced.exe`
+3. A warning should pop up
+    - Click `more info`
+    - Click `Run anyway`
 
-## Step 6: Add Poly Speech so its recognized as an official searchable Programs in Windows (Optional)
+## Step 6: Add Poly Speech to All Programs in Windows (Optional)
 1. Right click on the exe and select `create desktop shortcut` 
 2. Cut and paste desktop shortcut to the path below `C:\ProgramData\Microsoft\Windows\Start Menu\Programs`
 3. renaming the shortcut will also rename how the app appears when you search for it and it will not break the link
