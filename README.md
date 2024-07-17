@@ -1,5 +1,9 @@
 ---
-Polly Desktop GUI is a user-friendly desktop application designed to leverage the powerful text-to-speech capabilities of Amazon Polly directly from your desktop. This application simplifies the process of converting text into natural-sounding speech, allowing users to either play the audio directly through their speakers or save it as an MP3 file for later use
+Run Amazon Polly locally on your desktop with this user friendly interface!
+![image](https://github.com/user-attachments/assets/454bf0c9-b875-470c-afb5-1ab136a53ab5)
+![image](https://github.com/user-attachments/assets/ac229cef-97ae-4a02-afd0-60accc0bac2a)
+
+![image](https://github.com/user-attachments/assets/d7c177fc-0e87-4798-8c6a-1d4532e6b29d)
 
 ---
 
