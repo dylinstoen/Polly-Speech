@@ -45,7 +45,7 @@ Choose from any of the Amazon Polly natural voices!
         - Click on the `Security credentials` tab
         - Under `Access Keys (0)` click `Create Access key`
         - Click `Command Line Interface (CLI)`, check on `I understand...`
-        - (DON'T click on to `Done`!) To the left of `Done` click `Download .csv file` first so you save the access key ID and the secrete access key for the next step (if you do accedentially forget or delete the .csv file of the access keys then you just have to create a new access key to get a new valid set of keys to use)
+        - (DON'T click on `Done`!) Instead, to the left of `Done` click `Download .csv file` first so you save the access key ID and the secrete access key for the next step (if you do accedentially forget or delete the .csv file of the access keys then you just have to create a new access key to get a new valid set of keys to use)
     - **Install and Configure AWS ClI**:
     - Download and install `AWS CLI.exe` by following this link to the [AWS CLI website](https://aws.amazon.com/cli/) then click on whats boxed in red from the picture below matching the system your on.
 
