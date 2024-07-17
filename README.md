@@ -32,7 +32,7 @@ Choose from any of the Amazon Polly natural voices!
     - Once inside the `Identiy and Access Management (IAM)` homepage look to the left to find a sidebar full of options
     - Under the Access management category click on `Users`
     - To the right click on `Create user`
-    - Give the user a `name` and then click `Next`
+    - Give the user a name and then click `Next`
     - Under `Set permissions` and `Permission options` there's 3 options, toggle on the rightmost option which should say `Attach policies directly`
     - After the `Permission options` there's the `Permissions policies` where under that category, check on `AmazonPollyFullAccess` (and optionally toggle on `AdministratorAccess`, `AWSCompromisedKeyQuarantineV2` for more control)
     - Click `Next` and then `Create user`
